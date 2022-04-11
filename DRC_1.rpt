@@ -1,0 +1,183 @@
+** Drc report for C:\Users\kaesh\Documents\GitHub\RapidCDH-PCB_MODIFIED\CM4IOv5.kicad_pcb **
+** Created on 2022-04-10 23:59:46 **
+
+** Found 47 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(235.2500 mm, 150.7000 mm): Track [GND] on F.Cu, length 4.2426 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(195.2000 mm, 96.8000 mm): Track [GND] on F.Cu, length 0.1000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(198.3000 mm, 100.4000 mm): Track [GND] on F.Cu, length 0.0426 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(174.0000 mm, 127.5000 mm): Track [GND] on F.Cu, length 0.0850 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(152.9400 mm, 73.2000 mm): Track [GND] on In1.Cu, length 1.9600 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(227.1000 mm, 101.0500 mm): Track [GND] on B.Cu, length 0.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(216.2000 mm, 118.6000 mm): Track [/PCIe-connector/+3.3v] on F.Cu, length 0.4243 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(231.6500 mm, 119.5500 mm): Track [/PCIe-connector/+3.3v] on F.Cu, length 0.1000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(91.5000 mm, 103.3000 mm): Track [/SCL0] on F.Cu, length 0.1414 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(202.7000 mm, 132.2000 mm): Via [Net-(J7-Pad10)] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(144.3700 mm, 154.5000 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP] on B.Cu, length 0.0424 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(160.9000 mm, 140.5628 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] on B.Cu, length 1.8872 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(160.9000 mm, 144.9500 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] on B.Cu, length 0.1850 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(219.7750 mm, 94.9125 mm): Track [/+5v] on F.Cu, length 0.6894 mm
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.9659 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(159.0500 mm, 145.9500 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] on B.Cu, length 0.7941 mm
+    @(158.7150 mm, 144.1500 mm): Through hole pad 10 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N] of U3
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8778 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(160.9000 mm, 144.9500 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] on B.Cu, length 2.1030 mm
+    @(158.7150 mm, 144.1500 mm): Through hole pad 10 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N] of U3
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8991 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(162.5300 mm, 145.5000 mm): Track [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP] on B.Cu, length 2.5511 mm
+    @(160.8750 mm, 147.4500 mm): Through hole pad 20 [GND] of U3
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8400 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(139.2300 mm, 112.3700 mm): Through hole pad 1 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP] of J9
+    @(141.7700 mm, 112.3700 mm): Through hole pad 2 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP] of J9
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8400 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(139.2300 mm, 112.3700 mm): Through hole pad 1 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP] of J9
+    @(139.2300 mm, 114.9100 mm): Through hole pad 3 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP] of J9
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8400 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(141.7700 mm, 112.3700 mm): Through hole pad 2 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP] of J9
+    @(141.7700 mm, 114.9100 mm): Through hole pad 4 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] of J9
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.8400 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(139.2300 mm, 114.9100 mm): Through hole pad 3 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP] of J9
+    @(141.7700 mm, 114.9100 mm): Through hole pad 4 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] of J9
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.2965 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(147.2850 mm, 146.6700 mm): Through hole pad 11 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP] of U3
+    @(145.1250 mm, 147.4500 mm): Through hole pad 19 [GND] of U3
+[clearance]: Clearance violation (netclass 'POE TAPS' clearance 1.0000 mm; actual 0.2965 mm)
+    Rule: netclass 'POE TAPS'; Severity: error
+    @(158.7150 mm, 146.6700 mm): Through hole pad 14 [/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP] of U3
+    @(160.8750 mm, 147.4500 mm): Through hole pad 20 [GND] of U3
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(90.0000 mm, 122.5000 mm): Footprint BT1
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(90.0000 mm, 122.5000 mm): Footprint BT1
+    @(97.0400 mm, 136.0000 mm): Footprint J1
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(87.3700 mm, 108.8200 mm): Footprint J8
+    @(120.4000 mm, 103.2000 mm): Footprint J6
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(206.0000 mm, 76.0000 mm): Footprint U11
+    @(207.5000 mm, 72.5000 mm): Footprint J3
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(177.3000 mm, 126.5000 mm): Footprint U13
+    @(173.3650 mm, 128.5500 mm): Footprint R8
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(228.3500 mm, 126.0625 mm): Footprint U15
+    @(226.6000 mm, 130.7000 mm): Footprint C25
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(228.3500 mm, 126.0625 mm): Footprint U15
+    @(230.1500 mm, 130.7000 mm): Footprint C26
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(226.6500 mm, 100.0500 mm): Footprint C34
+    @(226.6500 mm, 101.9000 mm): Footprint C38
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(230.2000 mm, 100.0500 mm): Footprint C35
+    @(230.2000 mm, 101.9000 mm): Footprint C37
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(230.2000 mm, 101.9000 mm): Footprint C37
+    @(230.2000 mm, 103.7500 mm): Footprint C39
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(226.6500 mm, 101.9000 mm): Footprint C38
+    @(226.6500 mm, 103.7500 mm): Footprint C41
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 156.5000 mm): Arc on Edge.Cuts
+    @(236.8500 mm, 153.6000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(227.6500 mm, 161.5000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(161.1200 mm, 149.0700 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(144.8800 mm, 149.0700 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(165.0500 mm, 160.9900 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(178.9500 mm, 152.7000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(203.4600 mm, 159.9250 mm): Circle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(195.5000 mm, 70.0000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(162.5000 mm, 73.5000 mm): Arc on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(195.5000 mm, 73.5000 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+    @(175.6250 mm, 125.0500 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+    @(175.6250 mm, 124.8250 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+    @(178.9750 mm, 124.8250 mm): Line on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
