@@ -1,0 +1,105 @@
+** Drc report for C:\Users\kaesh\Documents\GitHub\RapidCDH-PCB\CM4IOv5.kicad_pcb **
+** Created on 2022-04-20 12:28:42 **
+
+** Found 24 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.0989 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(184.7500 mm, 88.8000 mm): Via [/SDA0] on F.Cu - B.Cu
+    @(182.5750 mm, 87.1750 mm): Track [/SCL0] on F.Cu, length 2.8638 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1300 mm; actual 0.1100 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(184.6000 mm, 89.2000 mm): Track [/SCL0] on F.Cu, length 9.8200 mm
+    @(184.7500 mm, 88.8000 mm): Via [/SDA0] on F.Cu - B.Cu
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error
+    @(90.0000 mm, 122.5000 mm): Footprint BT1
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(90.0000 mm, 122.5000 mm): Footprint BT1
+    @(97.0400 mm, 136.0000 mm): Footprint J1
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(87.3700 mm, 108.8200 mm): Footprint J8
+    @(120.4000 mm, 103.2000 mm): Footprint J6
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(206.0000 mm, 76.0000 mm): Footprint U11
+    @(207.5000 mm, 72.5000 mm): Footprint J3
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(177.3000 mm, 126.5000 mm): Footprint U13
+    @(173.3650 mm, 128.5500 mm): Footprint R8
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(228.3500 mm, 126.0625 mm): Footprint U15
+    @(226.6000 mm, 130.7000 mm): Footprint C25
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(228.3500 mm, 126.0625 mm): Footprint U15
+    @(230.1500 mm, 130.7000 mm): Footprint C26
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(226.6500 mm, 100.0500 mm): Footprint C34
+    @(226.6500 mm, 101.9000 mm): Footprint C38
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(230.2000 mm, 100.0500 mm): Footprint C35
+    @(230.2000 mm, 101.9000 mm): Footprint C37
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(230.2000 mm, 101.9000 mm): Footprint C37
+    @(230.2000 mm, 103.7500 mm): Footprint C39
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error
+    @(226.6500 mm, 101.9000 mm): Footprint C38
+    @(226.6500 mm, 103.7500 mm): Footprint C41
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 156.5000 mm): Arc on Edge.Cuts
+    @(236.8500 mm, 153.6000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(227.6500 mm, 161.5000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(165.0500 mm, 160.9900 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(178.9500 mm, 152.7000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(82.5000 mm, 160.0000 mm): Line on Edge.Cuts
+    @(203.4600 mm, 159.9250 mm): Circle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(195.5000 mm, 70.0000 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(162.5000 mm, 73.5000 mm): Arc on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: error
+    @(235.5000 mm, 70.0000 mm): Line on Edge.Cuts
+    @(195.5000 mm, 73.5000 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(175.6250 mm, 125.0500 mm): Line on F.Silkscreen
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(175.6250 mm, 124.8250 mm): Line on F.Silkscreen
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: error
+    @(162.5000 mm, 125.0000 mm): Line on F.Silkscreen
+    @(178.9750 mm, 124.8250 mm): Line on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
